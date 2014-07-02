@@ -13,16 +13,16 @@
 # limitations under the License.
 
 # Inherit device configuration
-$(call inherit-product, device/wiko/stairway/full_stairway.mk)
+$(call inherit-product, device/lenovo/a3000/full_a3000.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
-PRODUCT_NAME := cm_stairway
-PRODUCT_DEVICE := stairway
-PRODUCT_MODEL := Wiko Stairway
-PRODUCT_RELEASE_NAME := Stairway
-PRODUCT_BRAND := Android
-PRODUCT_MANUFACTURER := Wiko
+PRODUCT_NAME := cm_a3000
+PRODUCT_DEVICE := a3000
+PRODUCT_MODEL := Lenovo A3000
+PRODUCT_RELEASE_NAME := A3000
+PRODUCT_BRAND := Lenovo
+PRODUCT_MANUFACTURER := Lenovo

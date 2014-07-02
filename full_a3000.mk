@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, device/wiko/stairway/device_stairway.mk)
+$(call inherit-product, device/lenovo/a3000/device_a3000.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Configure as xhdpi device to prevent breaking without mdpi drawables
@@ -21,7 +21,7 @@ PRODUCT_AAPT_CONFIG := normal mdpi hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := full_stairway
-PRODUCT_DEVICE := stairway
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := STAIRWAY
+PRODUCT_NAME := full_a3000
+PRODUCT_DEVICE := a3000
+PRODUCT_BRAND := Lenovo
+PRODUCT_MODEL := A3000
